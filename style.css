@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+@keyframes typing {
+    40% ,60%{
+        left: calc(100% + 4px)
+}
+    100%{
+    left: 0%;
+}
+}
+body,html{
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    height: 30vw;
+    width: 100vw;
+    overflow: hidden;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    transform: translatey(50vh);
+    text-transform: capitalize;
+}
+
+
+
+/* header .carimage img{
+    position:absolute;
+    transform: translateX(48vw);
+    height: auto;
+    max-width: 50%;
+
+} */
+header .containat {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10vw;
+    transform: translateX(10vw) translateY(10vw);
+    overflow: hidden;
+
+    
+}
+header .containat .text{
+    position: relative;
+}
+
+
+
+
+.containat .text.text-first{
+    color: white;
+}
+.containat .text.text-second::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 2px solid white;
+    animation: typing 4s steps(12) infinite;
+}
+
+
+ .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    transform: translateY(20vh);
+}
+input[type="text"], select {
+    transform: translateX(10vw);
+    background-color: gray;
+    color: white;
+    width: 75%;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.textofform p{
+  color: yellow;
+  font-weight: bolder;
+  
+}
+.textofform{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ #makeyourbooking{
+    color: white;
+    font-size: 290%;
+    width: 10vw;
+ }
+form input::placeholder{
+    color: white;
+}
+button {
+    width: 75%;
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translateX(10vw);
+}
+button:hover {
+    background-color: #45a049;
+}
+ form input{
+    border: none;
+    
+    height: 50px;
+
+ }
+  form input, textarea{
+    outline: none;
+    text-transform: capitalize;
+ }
+ .prainfo h1{
+    text-decoration:underline;
+    transform: translateY(25vh);
+    font-weight: bolder;
+    justify-content: center;
+ }
+ .prainfo p{
+
+    width: 50vw;
+    height: 50vh;
+    transform: translateX(25vw) translateY(30vh);
+ }
+
+
+
+
+.heading h1{
+    margin-left: 10px;
+    transform: translatex(0vw) translateY(5vh);
+    font-size: 8vw;
+    font-weight: bolder;
+    color:black;
+    
+}
+.heading p{
+    transform: translateY(5vh);
+    margin: 10px;
+    padding: 5px;
+}
+#more{
+    display: none;
+}
+#myBtn{
+    background-color: yellow;
+    color: black;
+    width: 300px;
+    border-radius: 20px;
+    transform: translateX(3vw) translateY(4vh);
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1800px;
+    transform: translateY(20vh);
+    margin: 10px;
+    padding: auto;
+}
+
+
+.box {
+    background-image: url(innnnnnnnnnn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 47%;
+    height: 600px;
+    margin: 10px;
+    color: black;
+    background-color: aqua;
+    text-align:center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 /0.2);
+}
+ @media  only screen and (max-width: 600px) {
+     html,body{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+    }
+    .box{
+        width: 90%;
+        max-width: 70%;
+    
+    }
+  
+
+   
+    
+ } 
+
+ table{
+    background-color: yellow;
+    color: black;
+    border: 2px solid greenyellow;
+    transform: translateY(20vh);
+    width: 80vw;
+    margin-left: 8vw;
+}
+table th{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+#booinnova {
+    transform: translateY(455px);
+}
+#maruti{
+    background-image: url(pngwing.com.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#viewprice{
+    display: flex;
+    justify-content: center;
+    transform: translateX(1vw) translateY(18vh);
+    font-size: xx-large;
+}
+
+#etios{
+    background-image: url(pngwing.com\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#tempofs{
+    background-image: url(pngwing.com\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#temposs{
+    background-image: url(pngwing.com\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#tempots{
+    background-image: url(pngwing.com\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.last{
+    transform: translateX(1vw) translateY(30vh);
+    font-size: xx-large;
+}
+.last .lastheading h4{
+    text-decoration:underline;
+    transform: translatex(40vw);
+    font-weight: bolder;
+    justify-content: center;
+}
+.last p{
+    font-size: 2vw;
+    margin: 20px;
+    padding: 15px;
+}
+#why{
+    transform: translateY(40vh);
+    width: 100%;
+}
+#skilled{
+    color: black;
+    background-color: wheat;
+    background-image: none;
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+}
+#cousto{
+    color: black;
+    background-color: wheat;
+    background-image: none;
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+}
+#professionalism{
+    color: black;
+    background-color: wheat;
+    background-image: none;
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+}
+#widerange{
+    color: black;
+    background-color: wheat;
+    background-image: none;
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+}
+#Decent{
+    color: black;
+    background-color: wheat;
+    background-image: none;
+    height: 500px;
+    width: 600px;
+    overflow-y: scroll;
+}
+.lastanother{
+    display: flex;
+    transform: translateY(40vh);
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.safribooking{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 300px;
+    border-radius: 50px;
+    width: 100vw;
+    transform: translateY(5vh);
+    justify-content: center;
+    background-image: url(pexels-sayantan-kundu-951007.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+.safribooking:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 /39);
+}
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 10px;
+    transform: translateY(50vh);
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+#footerinformation{
+    position: absolute;
+    top: 0;
+    transform: translateY(1px);
+  
+}
+.jagdam{
+    color: yellow;
+}
+
+.footer h1 {
+    font-size: 24px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    font-size: 18px;
+}
+#map{
+    height: 40vh;
+    width: 60vw;
+    transform: translateX(80px) translateY(40px);
+}
+#phone-call{
+    /* background-attachment: fixed; */
+   position: fixed;
+   z-index: 1;
+    transform:  translateX(2vw)  translatey(24vh);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#whatsapp{
+        /* background-attachment: fixed; */
+   position: fixed;
+   z-index: 1;
+    transform:  translateX(84vw)  translatey(24vh);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#Email{
+    text-transform: lowercase;
+}
