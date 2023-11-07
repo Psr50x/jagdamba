@@ -436,7 +436,7 @@ table th{
     /* background-attachment: fixed; */
    position: fixed;
    z-index: 1;
-    transform:  translateX(2vw)  translatey(24vh);
+    transform:  translateX(2vw)  translatey(30vh);
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -445,7 +445,7 @@ table th{
         /* background-attachment: fixed; */
    position: fixed;
    z-index: 1;
-    transform:  translateX(84vw)  translatey(24vh);
+    transform:  translateX(84vw)  translatey(30vh);
     height: 50px;
     width: 50px;
     cursor: pointer;
