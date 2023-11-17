@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media  only screen and (max-width: 600px) {
+    body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+   }
+   html{
+       width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+
+   }
+  
+
+  
+   
+} 
+  
+   body{
+   overflow-x: hidden;
+
+}
+   header{
+   background-color: black;
+   height: 31vw;
+   width: 100vw;
+   overflow: hidden;
+   }
+   .container{
+       width: 400px;
+       height: 200px;
+       display: flex;
+       flex-wrap: wrap;
+       color: white;
+       display: inline-block;
+       transform: translateX(45vw) translateY(15vh);
+       font-family: 'Croissant One', cursive;
+   }
+   .pra{
+       display: inline-block;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content:space-evenly ;
+      transform: translateY(.1vh);
+
+   }
+   #prag{
+       transform: translateX(.1vw) translateY(20vh);
+       margin-left: .1vw;
+   }
+   .pra{
+       transform: translatey(20vh);
+       width: 90vw;
+       justify-content: center;
+       align-items: center;
+       margin-left: 4vw;
+       border: 2px solid brown ;
+       border-radius: 20px;
+
+   }
+   .pra:hover{
+       color: (3,134,3,1);
+       box-shadow: 0 5px 15px rgba(1, 200, 1, .8);
+   }
+   button {
+   width: 75%;
+   background-color: yellow;
+   color: black;
+   padding: 10px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+   transform: translateX(10vw);
+}
+button:hover {
+   background-color: #45a049;
+}
+
+   .pra h1{
+           display: inline-block;
+           display: flex;
+           color: rgb(252, 157, 5);
+           height: 5vh;
+           width: 100vw;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-size: 3em;
+           align-items: center;
+           justify-content: center;
+           transform: translateY(6vh);
+
+
+   }
+   table{
+       background-color: yellow;
+       color: black;
+       border: 2px solid greenyellow;
+       transform: translateY(8vh);
+       width: 80vw;
+       margin-left: 8vw;
+   }
+   table th{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: black;
+       font-size: x-large;
+   }
+   main{
+       display: inline-block;
+   }
+   #more{
+   display: none;
+}
+#myBtn{
+   background-color: yellow;
+   color: black;
+   width: 100px;
+   border-radius: 20px;
+   transform:  translateY(4vh);
+
+}
+
+
+.form-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100vw;
+   margin: 0 auto;
+   background-color: black;
+   padding: 20px;
+   border-radius: 5px;
+   transform: translateY(20vh);
+}
+input[type="text"], select {
+   transform: translateX(10vw);
+   background-color: gray;
+   color: white;
+   width: 75%;
+   padding: 20px;
+   margin: 25px 0;
+   border-radius: 25px;
+   border: none;
+   border-bottom: 2px solid black;
+}
+input[type="tel"], select {
+    transform: translateX(10vw);
+    background-color: gray;
+    color: white;
+    width: 75%;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+input[type="email"], select {
+    transform: translateX(10vw);
+    background-color: gray;
+    color: white;
+    width: 75%;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.textofform p{
+ color: yellow;
+ font-weight: bolder;
+ 
+}
+.textofform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#makeyourbooking{
+   color: white;
+   font-size: 290%;
+   width: 10vw;
+}
+
+form input::placeholder{
+   color: white;
+}
+.img{
+   transform: translateY(20vh);
+   margin: 10px;
+   padding: 5px;
+}
+.detial{
+   margin: 10px;
+   padding: 5px;
+}
+.endfoot{
+   display: flex;
+   height: 150vh;
+   width: 100vw;
+   background-color: black;
+   transform: translateY(50vh);
+   color: aliceblue;
+}
+
+
+footer{
+   transform: translateY(25vh);
+
+}
+.endinfo{
+   margin: 25px;
+   padding: 15px;
+   
+}
+#headingf{
+   color: yellow;
+}
+#explore{
+   color: yellow;
+}
+#map{
+   transform:  translateX(10vw) translateY(6vh);
+}
+
+header .containat {
+   color: green;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 10vw;
+   transform: translateX(10vw) translateY(8vw);
+   overflow: hidden;
+}
+.footer {
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color: black;
+   color: white;
+   margin-top: 0;
+   padding: 10px;
+   transform: translateY(50vh);
+   height: 150vh;
+   display: flex;
+   justify-content: space-between;
+
+}
+#map{
+   height: 40vh;
+   width: 60vw;
+}
+#footerinformation{
+   position: absolute;
+   top: 0;
+   transform: translateY(1px);
+ 
+}
+.jagdam{
+   color: yellow;
+}
+
+.footer h1 {
+   font-size: 24px;
+}
+
+.footer p {
+   font-size: 16px;
+}
+
+.footer ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer ul li {
+   font-size: 18px;
+}
